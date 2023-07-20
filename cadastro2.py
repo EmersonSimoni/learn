@@ -16,8 +16,8 @@ def listar(pessoas):
     for pessoa in pessoas:
         identificador, nome, idade = pessoa
         print(f'Nome: {nome}')
-        print(f'idade: {idade}')
-        print(f'id: {identificador}')
+        print(f'Idade: {idade}')
+        print(f'ID: {identificador}')
         print(f'')
 
 def buscar(pessoas):
@@ -27,8 +27,8 @@ def buscar(pessoas):
         if identificador == identificador_desejado:
             print(f'')
             print(f'Nome: {nome}')
-            print(f'idade: {idade}')
-            print(f'id: {identificador}')
+            print(f'Idade: {idade}')
+            print(f'ID: {identificador}')
             print(f'')
             break
     else:
