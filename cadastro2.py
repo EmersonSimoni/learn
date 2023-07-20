@@ -7,9 +7,9 @@ def exibir_menu():
     ''')
 
 def cadastrar(pessoas):
-    identificador = input('Id? ')
-    nome = input('Nome? ')
-    idade = int(input('Idade? '))
+    identificador = input('Id: ')
+    nome = input('Nome: ')
+    idade = int(input('Idade: '))
     pessoas.append((identificador, nome, idade))
 
 def listar(pessoas):
