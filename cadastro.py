@@ -1,17 +1,17 @@
-print("nome",nome_pessoa,"idade",idade_pessoa,"id",id_pessoa)
+#print("nome",nome_pessoa,"idade",idade_pessoa,"id",id_pessoa)
 
 listas = [[]] #uma lista de lista
 
 while True:
-    print("1-Cadastrar pessoa")
-    print("2-Lista Cadastros")
-    print("3-Procurar Pessoa Especifica")
+    print("1-Cadastrar pessoa: ")
+    print("2-Lista Cadastros: ")
+    print("3-Procurar Pessoa Especifica: ")
     op = int(input())#Escolha da opcao
     if op == 1:
         nova = [] # cria uma lista para adicionar o id, nome e idade da pessoa
-        id = input("Id da pessoa")
-        nome = input("Digite o nome da pessoa")
-        idade = input("Idade da pessoa")
+        id = input("Id da pessoa: ")
+        nome = input("Digite o nome da pessoa: ")
+        idade = input("Idade da pessoa: ")
         nova.append(id)
         nova.append(nome)
         nova.append(idade)
