@@ -32,7 +32,7 @@ def main():
 
     while True:
         exibir_menu()
-        opcao = int(input('Opção? '))
+        opcao = int(input('Digite uma opção: '))
         if opcao == 1:
             cadastrar(pessoas)
         elif opcao == 2:
@@ -40,6 +40,6 @@ def main():
         elif opcao == 3:
             buscar(pessoas)
         else:
-            print('Opção inválida')
+            print('Opção inválida!')
 
 main()
