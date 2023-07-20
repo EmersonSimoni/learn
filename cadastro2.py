@@ -33,7 +33,7 @@ def buscar(pessoas):
             break
     else:
         print(f'')
-        print(f'Pessoa com ID {identificador_desejado} não encontrada!')
+        print(f'Pessoa com ID: ,{identificador_desejado} não encontrada!')
         print(f'')
 
 
