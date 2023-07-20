@@ -15,7 +15,9 @@ def cadastrar(pessoas):
 def listar(pessoas):
     for pessoa in pessoas:
         identificador, nome, idade = pessoa
-        print(f'Nome: {nome}, idade: {idade}, id: {identificador}')
+        print(f'Nome: {nome}')
+        print(f'idade: {idade}')
+        print(f'id: {identificador}')
 
 def buscar(pessoas):
     identificador_desejado = input('Id? ')
